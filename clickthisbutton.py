@@ -10,11 +10,11 @@ def click():
     label.config(text=count)
     print("Logs",count)
 
-
+                          #<3
 window = Tk()
 window.title("Counter")
 
-button = Button(window,text='Click me')
+button = Button(window,text='Click me') 
 button.config(command=click)
 button.config(font=('Monospace',50,'bold'))
 button.config(bg='#3ae7f0') 
